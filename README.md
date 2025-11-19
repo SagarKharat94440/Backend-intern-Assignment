@@ -35,6 +35,13 @@ Includes a **React frontend**, **Swagger documentation**, and **secure backend a
 
 ---
 
+## Postman Collection 
+📎 Postman Collection: [Download](./Simple_API_Collection.postman_collection.json)
+🛡 Create Admin Manually:
+db.users.updateOne({ email: "test@test.com" }, { $set: { role: "admin" } })
+
+---
+
 ## 🗂️ Tech Stack
 
 | Component | Technology         |
